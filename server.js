@@ -19,6 +19,10 @@ var articles={
            },
 
 
+
+           
+
+
   'article-two':{ title:'article-two',
 	           heading:'Article two',
 	           date:'6th march',
@@ -29,7 +33,22 @@ var articles={
          <p>this is just for testing</p>
          p>I am very eagr to pearn.so i am doing this web app tutorial</p>
          <p>this is just for testing</p>`
-            }
+            },
+
+
+
+
+  'article-three':{ title:'article-three',
+             heading:'Article three',
+             date:'7th march',
+  content: 
+      `<h1>This is my third article</h1>
+       <div>5th march</div>
+         <p>I am very eagr to pearn.so i am doing this web app tutorial</p>
+         <p>this is just for testing</p>
+         p>I am very eagr to pearn.so i am doing this web app tutorial</p>
+         <p>this is just for testing</p>`
+            },
 
     
 };
