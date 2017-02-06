@@ -31,7 +31,8 @@ var articles={
          <p>this is just for testing</p>`
             }
 
-          };
+    
+};
 
 function createtemplate(data){
 var title=data.title;
