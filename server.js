@@ -78,7 +78,7 @@ app.get('/', function (req, res) {
 
 app.get('/:article-name', function (req, res) {
 	//:articlename matches the name like articleone,articletwo
-	var articlename =  req.params.articlename;
+	//var articlename =  req.params.articlename;
   res.send(createtemplate(articles[article-name]));
 });
 
