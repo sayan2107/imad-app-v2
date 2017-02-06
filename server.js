@@ -19,7 +19,7 @@ var articles={
            },
 
 
-  'articletwo':{ title:'article-two',
+  'article-two':{ title:'article-two',
 	           heading:'Article two',
 	           date:'6th march',
 	content: 
