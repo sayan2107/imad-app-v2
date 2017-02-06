@@ -23,7 +23,7 @@ var articles={
 	           heading:'Article two',
 	           date:'6th march',
 	content: 
-	    `<h1>This is my first article</h1>
+	    `<h1>This is my second article</h1>
 	     <div>5th march</div>
          <p>I am very eagr to pearn.so i am doing this web app tutorial</p>
          <p>this is just for testing</p>
