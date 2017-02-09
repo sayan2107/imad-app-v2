@@ -6,6 +6,6 @@ document.getElementById('bla').innerHTML='new valuie';
 
 //move image
 var img=document.getElementById('madi');
-img.onclick=function(){
+img.onClick=function(){
  img.style.marginleft = '300px';
 };
