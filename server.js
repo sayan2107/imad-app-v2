@@ -103,8 +103,8 @@ app.get('/:articlename', function (req, res) {
 });
 
 
-app.get('/ui/server.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'server.js'));
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 
