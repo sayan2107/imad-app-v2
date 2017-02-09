@@ -1,7 +1,4 @@
 console.log('Loaded!');
-//changing inner html with ID 'bla'
-document.getElementById('bla').innerHTML='new valuie';
-
 
 
 //move image
