@@ -5,10 +5,6 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-pp.get('/:filename', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', req.params.filename));
-});
-
 var articles={
 
   'article-one':{
@@ -118,10 +114,6 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-});
-
-pp.get('/:filename', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', req.params.filename));
 });
 
 
