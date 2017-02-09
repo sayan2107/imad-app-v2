@@ -8,7 +8,7 @@ var request = new XMLHttpRequest();
 
 //capture the request and store it inside a variable
 request.onreadystatechange = function(){
-if(request.readyState===XMLHttpRequest().DONE){
+if(request.readyState===XMLHttpRequest.DONE){
 //TAKE ACTION
  if(request.status===200){  //checking if it is a succesfull request or not
        var counter=request.responseText;
@@ -17,13 +17,13 @@ if(request.readyState===XMLHttpRequest().DONE){
         }
      }
 
-//later  else part
+     //later  else part
 
   };
   
 //make a request
 
 request.open('GET','http://sayan2107.imad.hasura-app.io/counter',true);
-rewuest.send(null);
+request.send(null);
 
 };
