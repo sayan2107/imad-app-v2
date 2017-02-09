@@ -5,6 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+pp.get('/:filename', function (req, res) {
+res.sendFile(path.join(__dirname, 'ui', req.params.filename));
+});
+
 var articles={
 
   'article-one':{
@@ -116,9 +120,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-pp.get('/:filename', function (req, res) {
-res.sendFile(path.join(__dirname, 'ui', req.params.filename));
-});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
