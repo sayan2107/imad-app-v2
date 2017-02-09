@@ -8,4 +8,5 @@ document.getElementById('bla').innerHTML='new valuie';
 var img=document.getElementById('madi');
 img.onclick=function(){
  img.style.marginLeft = '200px';
+ alert("img loaded");
 };
