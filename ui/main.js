@@ -25,7 +25,7 @@ if(request.readyState===XMLHttpRequest.DONE){
   
 //make a request
 
-request.open('GET','http://localhost:8080/counter',true);
+request.open('GET','http://sayan2107.imad.hasura-app.io/counter',true);
 request.send(null);
 
 };
@@ -65,7 +65,7 @@ for(var i=0; i<names.length; i++){
 //make a request
 var nameinput=document.getElementById('name');
 var name = nameinput.value;
-request.open('GET','http://localhost:8080/submit-name?name=' + name,true);
+request.open('GET','http://sayan2107.imad.hasura-app.io/submit-name?name=' + name,true);
 request.send(null);
 
 };
