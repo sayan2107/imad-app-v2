@@ -138,6 +138,9 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/ui/mail.php', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mail.php'));
+});
 
 
 
